@@ -29,7 +29,7 @@ def get_citations_needed_report(_page):
 if __name__ == '__main__':
     url = "https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict"
     page = get_page(url)
-    get_citations_needed_count(page
+    get_citations_needed_count(page)
     get_citations_needed_report(page)
 
 
